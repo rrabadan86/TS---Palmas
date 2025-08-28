@@ -660,7 +660,7 @@ def main():
         except Exception:
             log("### ERRO DURANTE O FLUXO ###")
             print(traceback.format_exc())
-            input("Pressione Enter para fechar...")
+            # ================== input("Pressione Enter para fechar...")
         finally:
             try: context.close()
             except Exception: pass
